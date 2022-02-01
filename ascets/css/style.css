@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+    --vermelho: #e50914 ;
+    --preto: #141414 ;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'arial black', times;
+    font-size: 40px;
+    margin-left: 60px;
+}
+header .targa-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+header ul li{
+    color: #7a7a7a;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    list-style-type: none;
+    display:  inline;
+     
+}
+header ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* Jogo Principal */
+
+.section-jogo-principal{
+    background: linear-gradient(rgba(0,0,0,.50 ),rgba(0,0,0,.50)100%), url('/ascets/img/Assassins-creed.jfif');
+    background-size: cover;
+    height: 100vw;
+    max-width: 100%;
+   
+  height: 1000px;
+    width: auto;
+    font-size: 16px;
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.container-dados-jogo{
+    margin-left: 60px; 
+}
+.sinopse-jogo-principal{
+    width: 250px;
+    
+    margin-bottom: 35px;
+
+}
+
+.titulo-jogo-principal{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.btn-secondary{
+    
+    padding: 15px 30px;
+    background-color: rgba(0,0,0,.50 );
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+/*
+
+*/
+
+/* Jogo Secundario */
+
+.box-jogos{
+    height: 220px;
+    width: 300px;
+    display: block;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.box-jogos:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    position: -webkit-sticky;
+}
+
+main .jogos-secundarios img{
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+    
+}
+    main .jogos-secundarios .col{
+    width: 50px;
+    height: 250px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+ 
+
+   
+}
+
+footer .targa-inferior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+footer .dados {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    display:  inline;
+}
+
+
+
+.links-logos img{
+    
+    max-height: 65px;
+    max-width: 65px;
+    padding-left: 30px;
+    
+    
+}
